@@ -39,3 +39,22 @@ For fixing it, you have to change some provilegies on your system:
 
 5. Migrate db:
     php artisan Migrate
+
+-------------------------------- php server --------------------------------------
+To start the PHP server, just run the following command in the terminal:
+
+1. php artisan serve
+
+Or run your own local server if you prefer.
+
+------------------------------ spatie permission -----------------------------
+Those are guys that made a great package for Laravel. They provide permissions and roles out of the box.
+
+1. To install:
+    composer require spatie/laravel-permission
+
+IMPORTANAT to follow their documentation as they explain how to use this package properly.
+
+Check the step number five to finish the settings.
+
+---------------------------- laravel excel -----------------------------------
