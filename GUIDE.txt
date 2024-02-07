@@ -4,3 +4,38 @@
 |Template: https://github.com/elrincondeisma/laravel-init                                 |
 -------------------------------------------------------------------------------------------
 
+----------------------- config .env -----------------------
+1. Access to .env file
+2. Found DB_DATABASE=laravel and modifies with:
+    DB_DATABASE=<name of your project>
+
+-------------------------- install dependencies --------------------------
+In this case, we have to install some dependencies because we're using a template.
+
+1. Install composer in the terminal:
+    composer install
+
+2. Install yarn:
+    npm install --global yarn
+
+3. Execute yarn:
+    yarn
+
+4. Compile yarn:
+    yarn dev
+
+(
+If you're using Windows, it's possible there's an error when you try to execute yarn.
+For fixing it, you have to change some provilegies on your system:
+    1. Get-ExecutionPolicy -List
+    // Note down what policy is currently set (Restricted, RemoteSigned or Unrestricted)
+    2. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+    Now, you can execute yarn without any problem.
+
+    To block the provilegies again:
+    1. Set-ExecutionPolicy -ExecutionPolicy Undefined -Scope CurrentUser
+)
+
+5. Migrate db:
+    php artisan Migrate
