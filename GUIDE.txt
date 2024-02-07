@@ -1,0 +1,6 @@
+-------------------------------------------------------------------------------------------
+|This GUIDE gives you the steps to build a simple web inventory-application using Laravel.|
+|                                                                                         |
+|Template: https://github.com/elrincondeisma/laravel-init                                 |
+-------------------------------------------------------------------------------------------
+
