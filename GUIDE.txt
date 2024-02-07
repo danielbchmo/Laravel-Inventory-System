@@ -58,3 +58,13 @@ IMPORTANAT to follow their documentation as they explain how to use this package
 Check the step number five to finish the settings.
 
 ---------------------------- laravel excel -----------------------------------
+It's important to check the official page of this package:
+    Laravel Excel by Maatwebsite
+    https://laravel-excel.com/
+
+And check the documentation for installing it.
+
+(
+    You can download Laragon. This software is and laravel environment which will install all you need.
+)
+
