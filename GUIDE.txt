@@ -68,3 +68,7 @@ And check the documentation for installing it.
     You can download Laragon. This software is and laravel environment which will install all you need.
 )
 
+There's a error when you try to install maatwebsite/excel. It'll request a different php version. But you just use this command:
+    
+    composer require maatwebsite/excel -W
+
